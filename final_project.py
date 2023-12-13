@@ -114,6 +114,11 @@ bee_counts_table["Proportion"] = bee_counts_prop
 # Showing the user the table for the Bee Movie
 print(bee_counts_table)
 
+# Writing these results to a .csv file
+bee_counts_table.to_csv("bee_movie_word_counts.csv", index = False)
+print("This data has been stored in a file named 'bee_movie_word_counts.csv.'")
+print("\n")
+
 # Comparing the user's data to the Bee Movie's: 
 # Checking for proportions of user's data that are larger than the Bee Movie's proportions
 greater_than = counts_table[counts_table["Proportion"] > bee_counts_table["Proportion"]] # 8.3
