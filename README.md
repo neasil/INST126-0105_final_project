@@ -1,8 +1,4 @@
 # INST126-0105_final_project
-This program allows you to enter the link to a Wikipedia page and count the number of times 
-that your given words appear. The counts will be stored in a .csv file which will then be
-graphed into either a scatterplot, barplot, or lineplot. 
+This program allows users to compare the usage of words in any Wikipedia article with the Bee Movie script. Users can enter a link to a Wikipedia page and count the number of times that certain words of their choice appear. The proportion of times these words appear in comparison to the rest of the page's text will also be calculated. This will be stored in a dataframe and a .csv file called 'word_counts.csv' for future reference. The same will be automatically done for the Bee Movie script, thought its data will instead be stored in a .csv file called 'bee_move_counts.csv'. Finally, the two dataframes will be plotted on a graph of the user's choice (scatterplot, barplot, lineplot).
 
-To use the program, please follow the on-screen prompt and enter the link to your chosen 
-Wikipedia page, any words you'd like to count, and what type of visualization you'd like to 
-display (scatterplot, barplot, lineplot).
+To use the program, please follow the on-screen prompts and enter a link to your chosen Wikipedia page, any words you'd like to count, and what type of visualization you'd like to use to display your data. This program is run from the command line but cannot accept command line arguments. Users can only enter inputs when prompted to by the program. 
